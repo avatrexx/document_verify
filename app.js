@@ -82,10 +82,5 @@ app.post('/uploadImages', upload.fields([{ name: 'frontImage', maxCount: 1 }, { 
   }
 });
 
-<<<<<<< HEAD
 app.listen(3000, () => console.log('Server started on port 3000'));
->>>>>>> 03af5d5 (Initial commit)
-=======
 
-app.listen(3000, () => console.log('Server started on port 3000'));
->>>>>>> b3a2d7a (initial commit 2)
